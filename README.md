@@ -54,7 +54,7 @@ reference: [Protect Your Uploads Folder with .htaccess](http://tomolivercv.wordp
 Config view/form
 
 ```
-<?= $form->field($model, 'body')->widget(\Sahilr2050\redactor\widgets\Redactor::className()) ?>
+<?= $form->field($model, 'body')->widget(\vsdesk\redactor\widgets\Redactor::className()) ?>
 ```
 
 or not use ActiveField
@@ -68,7 +68,7 @@ or not use ActiveField
 or config advanced redactor reference [Docs](http://imperavi.com/redactor/docs/)
 
 ```
-<?= $form->field($model, 'body')->widget(\Sahilr2050\redactor\widgets\Redactor::className(), [
+<?= $form->field($model, 'body')->widget(\vsdesk\redactor\widgets\Redactor::className(), [
     'clientOptions' => [
         'imageManagerJson' => ['/redactor/upload/image-json'],
         'imageUpload' => ['/redactor/upload/image'],
