@@ -1,0 +1,36 @@
+{
+  "name": "vsdesk/vsdesk-redactor",
+  "description": "Extension Imperavi Redactor 3 for Yii2 Framework.",
+  "version": "1.2.3",
+  "keywords": [
+    "yii2",
+    "extension",
+    "redactor",
+    "WYSIWYG",
+    "html editor",
+    "imperavi"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/vsdesk/vsdesk-redactor/issues?state=open",
+    "wiki": "http://www.yiidoc.com/wiki/",
+    "source": "https://github.com/vsdesk/vsdesk-redactor"
+  },
+  "authors": [
+    {
+      "name": "vsdesk",
+      "email": "dev@vsdesk.ru",
+      "homepage": "https://vsdesk.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "vsdesk\\redactor\\": "/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "*"
+  }
+}
