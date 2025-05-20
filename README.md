@@ -12,12 +12,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist vsdesk/vsdesk-redactor "*"
+composer require --prefer-dist vsdesk/vsdesk-redactor "dev-main"
 ```
 
  or
 ```
- "vsdesk/vsdesk-redactor": "*"
+ "vsdesk/vsdesk-redactor": "dev-main"
 ```
 
 to the require section of your composer.json.
@@ -73,7 +73,7 @@ or config advanced redactor reference [Docs](http://imperavi.com/redactor/docs/)
         'imageManagerJson' => ['/redactor/upload/image-json'],
         'imageUpload' => ['/redactor/upload/image'],
         'fileUpload' => ['/redactor/upload/file'],
-        'lang' => 'zh_cn',
+        'lang' => 'ru',
         'plugins' => ['clips', 'fontcolor','imagemanager']
     ]
 ])?>
